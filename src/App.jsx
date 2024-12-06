@@ -10,16 +10,8 @@ import Footer from "./components/Footer/Footer.jsx";
 import Popup from "./components/Popup/Popup.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
 
 
-function App() {
-  useEffect(() => {
-      document.title = "Trendix - E-commerce";
-  }, []);
-
-  return <div>Welcome to Trendix!</div>;
-}
 
 const App=()=>{
     
